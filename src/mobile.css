@@ -1,0 +1,1083 @@
+@keyframes transitionTwo{
+    0%{
+        opacity:0;
+        background-size:154vw 159vw;
+        
+    }
+
+    4%{
+        opacity:0;
+    }
+
+    15%{
+        opacity:.6;
+    }
+
+    100% {
+        opacity:.6;
+        background-size:91vw 109vw;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .mintTab{
+        display:none;
+    }
+
+    .teamGrid{
+        display:grid;
+        grid-template-columns:25vw 25vw 25vw;
+        grid-template-rows:25vw 2vw 2vw 25vw 2vw 2vw;
+        row-gap:2vw;
+        column-gap:6.5vw;
+        width:90vw;
+        height:70vw;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:2vw;
+        font-size:2.6vw;
+        font-weight:normal;
+    }
+
+    .teamGrid > div{
+        background-size:25vw 25vw;
+    }
+
+    .teamGrid div:nth-child(1){
+        order:1;
+        background-size:25vw 25vw;
+    }
+
+    .teamGrid div:nth-child(2){
+        order:2;
+        
+    }
+
+    .teamGrid div:nth-child(3){
+        order:3;
+    }
+
+    .teamGrid div:nth-child(4){
+        order:10;
+    }
+
+    .teamGrid div:nth-child(5){
+        order:11;
+    }
+
+    .teamGrid div:nth-child(6){
+        order:12;
+    }
+
+    .teamGrid div:nth-child(7){
+        order:4;
+    }
+
+    .teamGrid div:nth-child(8){
+        order:5;
+    }
+
+    .teamGrid div:nth-child(9){
+        order:6;
+    }
+
+    .teamGrid div:nth-child(10){
+        order:13
+    }
+
+    .teamGrid div:nth-child(11){
+        order:14
+    }
+
+    .teamGrid div:nth-child(12){
+        order:15;
+    }
+
+    .teamGrid div:nth-child(13){
+        order:7;
+    }
+
+    .teamGrid div:nth-child(14){
+        order:8;
+    }
+
+    .teamGrid div:nth-child(15){
+        order:9;
+    }
+
+    .teamGrid div:nth-child(16){
+        order:16;
+    }
+
+    .teamGrid div:nth-child(17){
+        order:17;
+    }
+
+    .teamGrid div:nth-child(18){
+        order:18;
+    }
+
+    
+
+     .titleText{
+        height:13vw;
+        width:91vw;
+        position:relative;
+        top:37vw;
+        display:flex;
+        justify-content:center;
+        text-align:center;
+        color:white;
+        text-transform: uppercase;
+        font-family:sportic, sans-serif;
+        font-size:13vw;
+        font-weight:200;
+    }
+
+    .secondNav{
+        display:block;
+    }
+
+    .mobileButton{
+        width:9vw;
+        height:5.5vw;
+        display:flex;
+        position:absolute;
+        z-index:5;
+        top:11.5vw;
+        left:88vw;
+        padding:0vw;
+        cursor:pointer;
+    }
+
+    .mobileButton1{
+        width:9vw;
+        height:5.5vw;
+        display:flex;
+        position:fixed;
+        z-index:5;
+        top:9.5vw;
+        left:85vw;
+        padding:0vw;
+        cursor:pointer;
+        
+    }
+
+    .mobileButton1 ul{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        background:rgb(27, 20, 20);  /*match with class: topMobileNav*/
+        height:8vw;
+        padding-top:2vw;
+    }
+
+    .mobileButton li{
+        background:white;
+        width:8vw;
+        height:2px;
+        position:relative;
+        z-index:5;
+    }
+
+    .mobileButton1 li{
+        background:white;
+        width:9.5vw;
+        height:.5vw;
+        position:relative;
+        z-index:5;
+    }
+
+    .mobileButton li:nth-child(2){
+        width:6vw;
+        left:2vw;
+    }
+
+    .mobileButton1 li:nth-child(1){
+        transform:rotate(45deg);
+        top:25%;
+    }
+
+    .mobileButton1 li:nth-child(3){
+        transform:rotate(135deg);
+        top:-64%;
+    }
+
+    .mobileButton1 li:nth-child(2){
+        display:none;
+    }
+    
+
+    
+
+
+    .mobileButton ul{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }
+
+    .mobileButton li{
+        background:white;
+        width:8vw;
+        height:2px;
+        position:relative;
+        z-index:5;
+    }
+
+    .mobileButton li:nth-child(2){
+        width:6vw;
+        left:2vw;
+    }
+
+    .navbarMobile1{
+        display:none;
+    }
+
+    .navbarMobile{
+        position:absolute;
+        top:0px;
+        z-index:3;
+        display:flex;
+        flex-direction:column;
+        width:100vw;
+        height:59.5vw;
+        position:fixed;
+    }
+
+    .navbarMobile ul{
+        position:relative;
+        z-index:3;
+        background:rgb(0, 0, 0);
+        display:flex;
+        flex-direction:column;
+        width:100vw;
+        text-decoration:none;
+        text-align:center;
+    }
+
+    
+
+    .link2{
+        text-decoration:none;
+        color:white;
+        padding:15px;
+        border:white 1px solid;
+    }
+
+    .topMobileNav{
+        width:100vw;
+        height:25vw;  /*was at 30*/
+        background:rgb(27, 20, 20);
+        z-index:1;
+    }
+    .link3{
+        text-decoration:none;
+        
+    }
+
+    .metamaskMobile{   
+        position:relative;
+        
+      margin-top:-.54vw;
+      font-size:14px;
+      border: white 1px solid;
+      border-radius:.4vw;
+      background-color: var(--secondary);
+      padding: 15px;
+      text-transform:uppercase;
+      padding-left:3.5vw;
+      padding-right:3.5vw;
+      margin-left:0;
+      font-weight: bold;
+      color: var(--secondary-text);
+      width: 100vw;
+      
+      cursor: pointer;
+      /*box-shadow: 0px .324vw 0px -.108px rgba(250, 250, 250, 0.3);
+      -webkit-box-shadow: 0px .324vw 0px -.108px rgba(250, 250, 250, 0.3);
+      -moz-box-shadow: 0px .324vw 0px -.108px rgba(250, 250, 250, 0.3);*/
+      transition:all .3s ease-in-out;
+    }
+
+    .metamaskMobile:focus{
+        border-width:2px;
+        padding:14px;
+    }
+    
+    
+     .main{   
+        width:100%;
+        z-index:0;
+        margin:0 auto;
+        height: 705vw;  /*750vw*/
+        padding-top:0;
+        background:black;
+        background-position:center;
+    }
+
+    .body{
+        background:black;
+    }
+
+    .connect{   
+        padding:5px;
+        
+        position:absolute;
+        top:205px;
+        display:block;
+         margin-left: 100px;
+        margin-right: auto;
+    }
+
+    .nav ul{    
+        /*display:flex;
+        justify-content:space-between;*/
+        display:grid;
+        grid-template-columns:60px 60px 60px 60px 60px;
+        grid-template-rows:100px;
+        
+        column-gap:10px;
+        width:400px;
+    }
+
+    .nav{    
+        display:none;
+    }
+
+    .navList{    
+    
+        display:flex;
+        justify-content:flex-end;
+        padding-right:170px;
+        padding-top:10px;
+        padding-left:400px;
+        margin-right:0;
+        font-size:20px;
+        top:0px;
+        font-family: Dosis;
+         
+    }
+
+    .logo2{
+        width:18vw;
+        height:18vw;
+        z-index:1;
+        position:absolute;
+        top:8vw;
+        left:5vw;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        background-size:20vw 20vw;
+        border:dashed 1px white;
+    }
+
+    
+    .mainGraphic{
+        
+        width:91vw;
+        margin-top:0px;
+        height:118.47vw;
+}
+
+.mainImage{
+    background-image:url('./img/question.jpg');
+    height:109vw;
+    width:91vw;
+    background-size:91vw 109vw;
+    animation: transitionTwo 8s;
+}
+
+.two{
+    width:91vw;
+    height:15vw;
+    position:absolute;
+    top:95vw;
+    margin-top:0px;
+    
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url('./img/shape.png');
+    background-size:110vw 20vw;
+    
+}
+    
+.titleMemo{
+    
+    height:12vw;
+    width:70vw;
+    position:relative;
+    top:35vw;
+    display:flex;
+    justify-content:center;
+    font-size:2.5vw;
+    color:white;
+    font-family:Dosis;
+    font-weight:500;
+    text-align:center;  
+    line-height:4vw;
+    
+}
+
+    .titleMemo p{   
+        width:70vw;
+    }
+
+    .goofyNames{
+        /*border:blue 5px solid;*/
+        height:15vw;
+        width:87vw;
+        position:absolute;
+        top:89.5vw;
+        left:2%;
+        display:flex;
+    }
+    
+    .goofyNames > p{
+        color:white;
+        font-size:2vw;
+        /*border:red 1px solid;*/
+        width:11vw;
+        margin:1vw;
+        height:5vw;
+        position:relative;
+        animation: transitionOneName 2s;
+    }
+    
+    .goofyNames p:nth-child(1){
+        top:6vw;
+        left:-2vw;
+    }
+    
+    .goofyNames p:nth-child(2){
+        top:4vw;
+        left:-6.5vw;
+    }
+    
+    .goofyNames p:nth-child(3){
+        top:2vw;
+        left:-6vw;
+    }
+    
+    .goofyNames p:nth-child(4){
+        top:0vw;
+        left:-2vw;
+    }
+    
+    .goofyNames p:nth-child(5){
+        top:2vw;
+        left:4vw;
+    }
+    
+    .goofyNames p:nth-child(6){
+        top:4vw;
+        left:4vw;
+    }
+    
+    .goofyNames p:nth-child(7){
+        top:6vw;
+        left:1vw;
+    }
+
+    .about{    
+        width:100vw;
+        height:30vw;
+        background:null;
+        text-align:center;
+        font-family:sportic;
+        font-size:12vw;
+        margin-top:0px;
+        padding:10vw;
+        color:rgb(104, 13, 13);
+        font-weight:600;
+        
+    }
+
+    .aboutGrid{
+       
+        width: 90vw;
+        /*height:2200px;*/
+        height:120vw;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        /*background:red;*/
+        margin-top:-10vw;
+        row-gap:10px;
+    }
+
+    .A2{    
+        order: 0;
+        width:80vw;
+        height:50vw;
+        margin-left:25vw;
+        margin-bottom:0px;
+        margin-top:5vw;
+    }
+
+    
+    
+    .portraits{
+        width:100%;
+        height:35vw;
+        width:35vw;
+    }
+
+    .A1{    
+        order: 1;
+        margin-top:0px;
+        width:70vw;
+        padding-right:5px;
+        margin-left:10vw;
+        line-height:4vw;
+        font-size:2.4vw;
+        margin-top:-50px;
+    }
+
+
+
+    .house{    
+        width:100vw;
+        height:30vw;;
+        background:null;
+        text-align:center;
+        font-family:sportic;
+        font-size:12vw;
+        margin-top:-10vw;
+        padding:10vw;
+        color:rgb(104, 13, 13);
+        font-weight:600;
+    }
+
+    .houseBox{
+        height:60vw;
+        width:80vw;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:1vw;
+    }
+    
+
+    .houseBox p{
+        color:white;
+        font-size:2.4vw;
+        padding-top:1.5vw;
+        line-height:3.2vw;
+        font-family:Dosis;
+        /*text-indent:5vw;*/
+    }
+
+    .roadmapText{
+        font-size:12vw;
+        margin-bottom:3vw;
+    }
+
+    .roadGrid div:nth-child(2){
+        line-height:1.4vw;
+        font-size:1.6vw;
+    }
+
+    .roadGrid div:nth-child(3){
+        line-height:1.4vw;
+    }
+
+    .R2{
+        font-size:2vw;
+    }
+
+    .phase2{
+        margin-top:1vw;
+    }
+ 
+    .icons{   
+        width:100vw;
+        height:30vw;
+        background:null;
+        text-align:center;
+        font-family:sportic;
+        font-size:12vw;
+        padding:10vw;
+        color:rgb(104, 13, 13);
+        font-weight:600;  
+        margin-top:0vw;
+    }
+
+    
+
+    .iconGrid{
+        color:white;
+        display:grid;
+        /* grid-template-columns:380px 380px 380px 380px;
+        grid-template-rows:380px 380px 380px;
+        row-gap:30px;
+        column-gap:30px; */
+        grid-template-columns:20vw 20vw 20vw 20vw;
+        grid-template-rows:20vw 25vw 20vw 25vw;
+        row-gap:0vw;
+        column-gap:1.62vw;
+       /* border:red 2px solid;*/
+        height:100.86vw;   /*25*/
+        width:85vw;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+
+    .profile{
+        border:white 1px solid;
+        padding:.8vw;
+        line-height:1.4vw;
+        font-size:1.3vw;
+    }
+
+    .profile p:nth-child(2){
+        margin-top:.5vw;
+    }
+
+    
+
+    
+    
+    /*same as 480*/
+    /*.icon{  
+        border:solid white 3px;
+    }*/
+
+    .timeline{   
+        width:100vw;
+        /*height:410px;*/
+        height:75vw;  /*120vw*/
+        background:null;
+        text-align:center;
+        padding-top:40px;
+        color:rgb(104, 13, 13);
+        font-weight:600;
+    }
+
+    .timeDesc{   
+        font-family:Dosis;
+        color:white;
+        font-size:4vw;  /*2.6vw for consistent*/
+        /*border:green solid 1px;*/
+        width:90vw;
+        height:50vw;
+        margin-top:10px;
+        margin-left:auto;
+        margin-right:auto;
+        font-weight:lighter;
+        line-height:6vw;  /*4 vw for consistent*/
+        
+    }
+    
+    .timelineText{   
+        font-size:12vw;
+        font-family:sportic;
+    }
+
+    .teamGrid{
+        margin-top:20px;
+    }
+
+    .buyText{  
+        width:100vw;
+        height:40vw;
+        background:null;
+        text-align:center;
+        font-family:sportic;
+        font-size:12vw;
+        padding:60px;
+        padding-bottom:0px;
+        color:rgb(104, 13, 13);
+        font-weight:600;
+        
+        
+    }
+    
+    .buyGrid{  
+        color:white;
+        display:flex;
+        flex-direction:column;
+        row-gap:20px;
+        column-gap:100px;
+        
+       height:140vw;
+        width:100vw;
+        margin-left:auto;
+        margin-right:auto;
+        font-weight:lighter;
+        
+        font-family:Dosis;
+        
+    }
+    
+    .buyBox{  
+        
+        width:90vw;
+        margin-left:5vw;
+        
+        
+    }
+
+    .buyDesc{  
+        order:1;
+        font-size:2.6vw;
+        line-height:4vw;
+        
+        padding-top:3vw;
+    }
+
+    .buyPic{  
+        
+        position:relative;
+        top:0%;
+        
+        order:2;
+        width:80vw;
+        height:80vw;
+    }
+
+    .end{
+    
+        width:90vw;
+        height:16.58vw;
+        position:relative;
+        top:-2vw;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;  
+        margin-top:40vw; 
+    }
+    
+    
+    .endImage{
+        width:90vw;
+        height: 28.84vw;
+        object-fit:cover;
+        
+    }
+    
+    .end p{
+        color:white;
+        font-weight:bold;
+        font-family:Arial;
+        text-align:center;
+        font-size:4vw;
+        
+        width:90vw;
+    }
+
+    
+.social{
+    width:3.12vw;
+    height:10.4vw;
+    position:absolute;
+    z-index:2;  /*3 or greater to see social on nav bar*/
+    margin-top:5vw;
+    margin-left:40vw;  /*temp*/
+}
+
+.social ul{
+    display:flex;
+    text-decoration:none;
+    /*border: blue 3px dashed;*/
+    width:40vw;
+    margin-left:-3vw;
+}
+
+
+.social li{
+    height:8vw;
+    position:relative;
+    /*border:blue 1px solid;*/
+    margin-bottom:.26vw;
+}
+
+.social li a{
+    color:white;
+    width:8vw;
+    height:100%;
+    line-height:1.56vw;
+    padding-left:6%;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+    transition: all .3s linear;
+    border-radius:4vw;
+}
+
+.social li:nth-child(1) a{
+    background:none;
+}
+
+.social li:nth-child(1) div{
+    background-image:url('./img/instagramgold3.png');
+    width:8vw;
+    height:8vw;
+    background-size:8vw 8vw;
+    border-radius:60px;
+}
+
+
+
+.social li:nth-child(2) a{
+    background:none;
+}
+
+.social li:nth-child(2) div{
+    background-image:url('./img/twitterGold.png');
+}
+
+
+
+.social li:nth-child(3) a{
+    background:none;
+    
+}
+
+.social li:nth-child(3) div{
+    background-image:url('./img/telegramGold.png');
+}
+
+
+
+.social li:nth-child(4) a{
+    background:none;
+}
+
+
+.social li:nth-child(4) div{
+    background-image:url('./img/discordGold.png');
+}
+
+.social li a div{
+    position:absolute;
+    left:2vw;
+    top:0vw;
+    opacity:.8;
+    width:8vw;
+    height:8vw;
+    background-size:8vw 8vw;
+    color:#0088cc;
+}
+
+.social li a span{
+    font-weight: normal;
+    letter-spacing: .05vw;
+    text-transform: uppercase;
+      /*temp*/
+    
+    height:5.2vw;
+    text-align:center;
+    display:none;
+    padding:.46vw;
+    font-size:1vw;
+    
+   
+}
+
+.social li a:hover{
+    width:8vw; 
+}
+
+ul li a:hover span{
+    display: none;
+}
+
+.teamGrid > div{
+    font-size:2.5vw;
+}
+
+.mintTab{
+    display:none; /*block*/
+    position:absolute;
+    top:660vw;
+    width:100%;
+    border:blue 1vw dashed;
+    height:45vw;
+    left:0%;
+}
+
+.noMint{
+    display:none;  /*block*/
+    position:absolute;
+    top:660vw;
+    width:100%;
+    border:blue 1vw dashed;
+}
+
+
+}
+
+@media only screen and (max-width: 560px){
+    .aboutGrid{
+        height:115vw;  
+    }
+
+    .end p{
+        font-size:4vw;
+    }
+
+    .main{
+        height:710vw;  /*760vw*/
+    }
+
+    .timeline{
+        height:80vw; /*130px*/
+    }
+
+    .teamGrid > div{
+        font-size:2.5vw;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    .aboutGrid{
+        height:120vw;
+    }
+
+    .end p{
+        font-size:4vw;
+        
+    }
+
+    .buyGrid{
+        height:150vw;
+    }
+
+    .main{
+        height:710vw;  /*760vw*/
+    }
+
+    .teamGrid > div{
+        font-size:2.5vw;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .aboutGrid{
+        height:120vw;
+    }
+
+    .end p{
+        font-size:4vw;
+        
+    }
+
+    .buyGrid{
+        height:150vw;
+    }
+
+    .main{
+        height:710vw;  /*760*/
+    }
+
+    .timeline{
+        height:89vw;  /*140vw*/
+    }
+
+    .end{
+        margin-top:30vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 370px){
+    
+    .aboutGrid{
+        height:115vw;
+    }
+
+    .buyGrid{
+        height:160vw;
+    }
+
+    .end p{
+        font-size:4vw;
+        height:.1vw;
+    }
+
+    .main{
+        height:710vw;  /*760vw*/
+    }
+}
+
+@media only screen and (max-width: 340px){
+    
+
+    .end{
+        top:-3vw;
+    }
+
+    .main{
+        height:710vw;  /*760vw*/
+    }
+
+    .end p{
+        font-size:4vw;
+    }
+
+    .A1{
+        
+        margin-top:-10vw;
+    }
+
+    .mintTab{
+        top:665vw;
+    }
+    
+    .noMint{ 
+        top:665vw; 
+    }
+
+}
+
+@media only screen and (max-width: 300px){
+    .aboutGrid{
+        height:120vw;
+    }
+
+    .end p{
+        font-size:4vw;
+    }
+    .main{
+        height:700vw;  /*760vw*/
+    }
+
+    
+}
+
+@media only screen and (max-width: 270px){
+    .aboutGrid{
+        height:120vw;
+    }
+
+    .buyGrid{
+        height:165vw;
+    }
+
+    .end p{
+        font-size:4vw;
+    }
+
+    .main{
+        height:720vw;  /*780vw*/
+    }
+
+    .timeline{
+        height:100vw;  /*150vw*/
+    }
+
+    .mintTab{
+        top:675vw;
+    }
+    
+    .noMint{ 
+        top:675vw; 
+    }
+}
+
+/*change display of mint tabs, height to main and timeline*/
+
+
